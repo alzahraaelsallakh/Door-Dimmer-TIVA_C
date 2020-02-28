@@ -1,0 +1,12 @@
+#define SWITCH_NUM                   2
+
+#define SWITCH_LEFTDOOR                 0
+#define SWITCH_LEFTDOOR_PIN             GPIO_PIN_4
+#define SWITCH_LEFTDOOR_PORT            GPIO_PORTF_BASE
+#define SWITCH_LEFTDOOR_PULL_STATE      GPIO_PIN_TYPE_STD_WPU
+
+
+#define SWITCH_RIGHTDOOR              1
+#define SWITCH_RIGHTDOOR_PIN          GPIO_PIN_1
+#define SWITCH_RIGHTDOOR_PORT         GPIO_PORTF_BASE
+#define SWITCH_RIGHTDOOR_PULL_STATE   GPIO_PIN_TYPE_STD_WPU
